@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic Exceptions", "Basic E
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Standard Exceptions", "Standard Exceptions\Standard Exceptions.vcxproj", "{2E92300C-FB8D-4D95-8FD3-6DB3E159DEBE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Custom Exceptions", "Custom Exceptions\Custom Exceptions.vcxproj", "{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{2E92300C-FB8D-4D95-8FD3-6DB3E159DEBE}.Release|x64.Build.0 = Release|x64
 		{2E92300C-FB8D-4D95-8FD3-6DB3E159DEBE}.Release|x86.ActiveCfg = Release|Win32
 		{2E92300C-FB8D-4D95-8FD3-6DB3E159DEBE}.Release|x86.Build.0 = Release|Win32
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Debug|x64.ActiveCfg = Debug|x64
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Debug|x64.Build.0 = Debug|x64
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Debug|x86.ActiveCfg = Debug|Win32
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Debug|x86.Build.0 = Debug|Win32
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Release|x64.ActiveCfg = Release|x64
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Release|x64.Build.0 = Release|x64
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Release|x86.ActiveCfg = Release|Win32
+		{611A62D8-EAF1-4C35-8683-6BAD9CCD455F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
