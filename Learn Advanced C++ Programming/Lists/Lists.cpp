@@ -5,21 +5,21 @@ using namespace std;
 
 int main()
 {
-    list<int> Numbers;
+	list<int> Numbers;
 
-    Numbers.push_back(1);
-    Numbers.push_back(2);
-    Numbers.push_back(3);
-    Numbers.push_front(0);
+	Numbers.push_back(1);
+	Numbers.push_back(2);
+	Numbers.push_back(3);
+	Numbers.push_front(0);
 
-    list<int>::iterator TestIt = Numbers.begin();
-    TestIt++;
-    Numbers.insert(TestIt, 100);
-    cout << "Element: " << *TestIt << endl;
+	list<int>::iterator TestIt = Numbers.begin();
+	TestIt++;
+	Numbers.insert(TestIt, 100);
+	cout << "Element: " << *TestIt << endl;
 
 	list<int>::iterator EraseIt = Numbers.begin();
 	EraseIt++;
-    EraseIt = Numbers.erase(EraseIt);
+	EraseIt = Numbers.erase(EraseIt);
 	cout << "Element: " << *EraseIt << endl;
 
 	for (list<int>::iterator it = Numbers.begin(); it != Numbers.end();)
@@ -39,7 +39,7 @@ int main()
 		}
 	}
 
-    /*list<int>::iterator it = Numbers.begin();
+	/*list<int>::iterator it = Numbers.begin();
 	while (it != Numbers.end())
 	{
 		if (*it == 2)
@@ -57,10 +57,10 @@ int main()
 		}
 	}*/
 
-    for (list<int>::iterator it = Numbers.begin(); it != Numbers.end(); it++)
-    {
-        cout << *it << endl;
-    }
+	for (list<int>::iterator it = Numbers.begin(); it != Numbers.end(); it++)
+	{
+	cout << *it << endl;
+	}
 
-    return 0;
+	return 0;
 }

@@ -6,37 +6,37 @@ using namespace std;
 
 int main()
 {
-    string FileName = "stats.txt";
-    ifstream Input;
+	string FileName = "stats.txt";
+	ifstream Input;
 
-    Input.open(FileName);
+	Input.open(FileName);
 
-    if (!Input.is_open())
-    {
-        return 1;
-    }
+	if (!Input.is_open())
+	{
+		return 1;
+	}
 
-    while (Input)
-    {
-        string Line;
+	while (Input)
+	{
+		string Line;
 
-        getline(Input, Line, ':');
+		getline(Input, Line, ':');
 
-        int population;
-        Input >> population;
+		int population;
+		Input >> population;
 
-        //Input.get();
-        Input >> ws;
+		//Input.get();
+		Input >> ws;
 
-        if (!Input)
-        {
-            break;
-        }
+		if (!Input)
+		{
+			break;
+		}
 
-        cout << "'" << Line << "'" << " -- '" << population << "'" << endl;
-    }
+		cout << "'" << Line << "'" << " -- '" << population << "'" << endl;
+	}
 
-    Input.close();
+	Input.close();
 
-    return 0;
+	return 0;
 }

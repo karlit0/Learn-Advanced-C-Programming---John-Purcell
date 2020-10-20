@@ -6,16 +6,16 @@ using namespace std;
 
 struct Person
 {
-    char Name[50];
-    int Age;
-    double Weight;
+	char Name[50];
+	int Age;
+	double Weight;
 };
 
 #pragma pack(pop)
 
 int main()
 {
-    cout << sizeof(Person) << endl;
+	cout << sizeof(Person) << endl;
 
-    return 0;
+	return 0;
 }

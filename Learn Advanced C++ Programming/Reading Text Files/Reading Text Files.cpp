@@ -5,28 +5,28 @@ using namespace std;
 
 int main()
 {
-    string InFileName = "test.txt";
+	string InFileName = "test.txt";
 
-    ifstream InFile;
+	ifstream InFile;
 
-    InFile.open(InFileName);
+	InFile.open(InFileName);
 
-    if (InFile.is_open())
-    {
-        string Line;
+	if (InFile.is_open())
+	{
+		string Line;
 
-        while(InFile)
-        {
-            getline(InFile, Line);
-            cout << Line << endl;
-        }
-        
-        InFile.close();
-    }
-    else
-    {
-        cout << "Cannot open file: " << InFileName << endl;
-    }
+		while(InFile)
+		{
+			getline(InFile, Line);
+			cout << Line << endl;
+		}
 
-    return 0;
+		InFile.close();
+	}
+	else
+	{
+		cout << "Cannot open file: " << InFileName << endl;
+	}
+
+	return 0;
 }
