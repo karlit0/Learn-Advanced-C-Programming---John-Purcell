@@ -32,7 +32,7 @@ int main()
 	{
 		cout << "Error code: " << e << endl;
 	}
-	catch(char const* e)
+	catch (char const* e)
 	{
 		cout << "Error message: " << e << endl;
 	}
@@ -40,7 +40,7 @@ int main()
 	{
 		cout << "String Error Message: " << e << endl;
 	}
-	
+
 	cout << "Still running" << endl;
 
 	return 0;
