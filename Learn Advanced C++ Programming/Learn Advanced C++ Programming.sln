@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Custom Objects as Map Value
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Custom Objects as Map Keys", "Custom Objects as Map Keys\Custom Objects as Map Keys.vcxproj", "{132241E7-D4EF-4E0B-86D0-1DAA9A3A1E91}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multimap", "Multimap\Multimap.vcxproj", "{E11E037E-FA55-4DEA-A8F3-1E20D1953721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{132241E7-D4EF-4E0B-86D0-1DAA9A3A1E91}.Release|x64.Build.0 = Release|x64
 		{132241E7-D4EF-4E0B-86D0-1DAA9A3A1E91}.Release|x86.ActiveCfg = Release|Win32
 		{132241E7-D4EF-4E0B-86D0-1DAA9A3A1E91}.Release|x86.Build.0 = Release|Win32
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Debug|x64.ActiveCfg = Debug|x64
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Debug|x64.Build.0 = Debug|x64
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Debug|x86.ActiveCfg = Debug|Win32
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Debug|x86.Build.0 = Debug|Win32
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Release|x64.ActiveCfg = Release|x64
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Release|x64.Build.0 = Release|x64
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Release|x86.ActiveCfg = Release|Win32
+		{E11E037E-FA55-4DEA-A8F3-1E20D1953721}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
