@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading the Insertion O
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A Complex Number Class", "A Complex Number Class\A Complex Number Class.vcxproj", "{7156DA0F-08BA-4684-BDFC-60888EFF2679}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading Plus", "Overloading Plus\Overloading Plus.vcxproj", "{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{7156DA0F-08BA-4684-BDFC-60888EFF2679}.Release|x64.Build.0 = Release|x64
 		{7156DA0F-08BA-4684-BDFC-60888EFF2679}.Release|x86.ActiveCfg = Release|Win32
 		{7156DA0F-08BA-4684-BDFC-60888EFF2679}.Release|x86.Build.0 = Release|Win32
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Debug|x64.ActiveCfg = Debug|x64
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Debug|x64.Build.0 = Debug|x64
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Debug|x86.Build.0 = Debug|Win32
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x64.ActiveCfg = Release|x64
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x64.Build.0 = Release|x64
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x86.ActiveCfg = Release|Win32
+		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
