@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL Complex Data Types", "S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading the Assignment Operator", "Overloading the Assignment Operator\Overloading the Assignment Operator.vcxproj", "{23B9ABFE-8C76-44AF-AF62-23D4C746DADC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading the Insertion Operator for Printing", "Overloading the Insertion Operator for Printing\Overloading the Insertion Operator for Printing.vcxproj", "{D2F54AEB-38A5-47DC-8C80-E05D3519368A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{23B9ABFE-8C76-44AF-AF62-23D4C746DADC}.Release|x64.Build.0 = Release|x64
 		{23B9ABFE-8C76-44AF-AF62-23D4C746DADC}.Release|x86.ActiveCfg = Release|Win32
 		{23B9ABFE-8C76-44AF-AF62-23D4C746DADC}.Release|x86.Build.0 = Release|Win32
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Debug|x64.ActiveCfg = Debug|x64
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Debug|x64.Build.0 = Debug|x64
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Debug|x86.Build.0 = Debug|Win32
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Release|x64.ActiveCfg = Release|x64
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Release|x64.Build.0 = Release|x64
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Release|x86.ActiveCfg = Release|Win32
+		{D2F54AEB-38A5-47DC-8C80-E05D3519368A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
