@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A Complex Number Class", "A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading Plus", "Overloading Plus\Overloading Plus.vcxproj", "{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading Comparison Operators", "Overloading Comparison Operators\Overloading Comparison Operators.vcxproj", "{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x64.Build.0 = Release|x64
 		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x86.ActiveCfg = Release|Win32
 		{A329B7C3-CEF3-4A58-910D-8A41F4F298F3}.Release|x86.Build.0 = Release|Win32
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Debug|x64.ActiveCfg = Debug|x64
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Debug|x64.Build.0 = Debug|x64
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Debug|x86.Build.0 = Debug|Win32
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Release|x64.ActiveCfg = Release|x64
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Release|x64.Build.0 = Release|x64
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Release|x86.ActiveCfg = Release|Win32
+		{BA915687-CBA0-4A9B-A396-E27D8F6BDDBD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
