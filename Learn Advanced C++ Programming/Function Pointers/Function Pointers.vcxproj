@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69e3b91f-ab06-4355-abb3-07978ea08eb6}</ProjectGuid>
-    <RootNamespace>PassingFunctionstoFunctions</RootNamespace>
+    <ProjectGuid>{b354638e-5a32-482b-a6b2-2db71a014f71}</ProjectGuid>
+    <RootNamespace>FunctionPointers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
