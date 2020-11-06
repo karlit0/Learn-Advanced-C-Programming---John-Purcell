@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template Classes", "Templat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template Functions", "Template Functions\Template Functions.vcxproj", "{6A39EC17-274D-41E4-97E4-96992876FD39}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template Functions and Type Inference", "Template Functions and Type Inference\Template Functions and Type Inference.vcxproj", "{FEFC862B-F2C4-4622-BA49-D15E883111E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{6A39EC17-274D-41E4-97E4-96992876FD39}.Release|x64.Build.0 = Release|x64
 		{6A39EC17-274D-41E4-97E4-96992876FD39}.Release|x86.ActiveCfg = Release|Win32
 		{6A39EC17-274D-41E4-97E4-96992876FD39}.Release|x86.Build.0 = Release|Win32
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Debug|x64.ActiveCfg = Debug|x64
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Debug|x64.Build.0 = Debug|x64
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Debug|x86.Build.0 = Debug|Win32
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Release|x64.ActiveCfg = Release|x64
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Release|x64.Build.0 = Release|x64
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Release|x86.ActiveCfg = Release|Win32
+		{FEFC862B-F2C4-4622-BA49-D15E883111E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
