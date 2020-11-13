@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Initializer Lists", "Initia
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Object Initialization", "Object Initialization\Object Initialization.vcxproj", "{D07D1821-7930-4131-BBBA-E79A5267C054}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Introducing Lambda Expressions", "Introducing Lambda Expressions\Introducing Lambda Expressions.vcxproj", "{88D0B70D-D9A8-4B51-BA21-E430536F1686}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -475,6 +477,14 @@ Global
 		{D07D1821-7930-4131-BBBA-E79A5267C054}.Release|x64.Build.0 = Release|x64
 		{D07D1821-7930-4131-BBBA-E79A5267C054}.Release|x86.ActiveCfg = Release|Win32
 		{D07D1821-7930-4131-BBBA-E79A5267C054}.Release|x86.Build.0 = Release|Win32
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Debug|x64.ActiveCfg = Debug|x64
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Debug|x64.Build.0 = Debug|x64
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Debug|x86.ActiveCfg = Debug|Win32
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Debug|x86.Build.0 = Debug|Win32
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Release|x64.ActiveCfg = Release|x64
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Release|x64.Build.0 = Release|x64
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Release|x86.ActiveCfg = Release|Win32
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -525,6 +535,7 @@ Global
 		{363F90F7-6588-4E35-AC9E-CD9ECB6A58DC} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
 		{FA5B8282-C924-4AD5-9994-C9E5EAE3FE04} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
 		{D07D1821-7930-4131-BBBA-E79A5267C054} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
+		{88D0B70D-D9A8-4B51-BA21-E430536F1686} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6B1F7C7-DE8D-4505-B1AE-12F93707DF34}
