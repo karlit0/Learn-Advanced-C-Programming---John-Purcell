@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lambda Capture Expressions"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Capturing this in Lambda", "Capturing this in Lambda\Capturing this in Lambda.vcxproj", "{8061CE9B-3829-4A78-8626-CDB2B9BF6F8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functional Types", "Functional Types\Functional Types.vcxproj", "{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -515,6 +517,14 @@ Global
 		{8061CE9B-3829-4A78-8626-CDB2B9BF6F8A}.Release|x64.Build.0 = Release|x64
 		{8061CE9B-3829-4A78-8626-CDB2B9BF6F8A}.Release|x86.ActiveCfg = Release|Win32
 		{8061CE9B-3829-4A78-8626-CDB2B9BF6F8A}.Release|x86.Build.0 = Release|Win32
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Debug|x64.ActiveCfg = Debug|x64
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Debug|x64.Build.0 = Debug|x64
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Debug|x86.ActiveCfg = Debug|Win32
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Debug|x86.Build.0 = Debug|Win32
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Release|x64.ActiveCfg = Release|x64
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Release|x64.Build.0 = Release|x64
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Release|x86.ActiveCfg = Release|Win32
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -569,6 +579,7 @@ Global
 		{F5138AD1-ECC6-4D43-ACF8-31000F9D2F74} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
 		{327B57FC-D1AE-4E3E-9D96-19DC76462AB2} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
 		{8061CE9B-3829-4A78-8626-CDB2B9BF6F8A} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
+		{2B27CE92-4E5B-4C1C-BB15-F7D1680C7C64} = {503F6DB5-04A8-4974-AD3A-54BEEEE263F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6B1F7C7-DE8D-4505-B1AE-12F93707DF34}
