@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ring Buffer", "C++ 11's Ama
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The auto Keyword", "C++ 11's Amazing New Features\The auto Keyword\The auto Keyword.vcxproj", "{954D26B8-033E-4653-889B-DDFF58F9B1EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Delegating Constructors", "C++ 11's Amazing New Features\Delegating Constructors\Delegating Constructors.vcxproj", "{0106D24F-D03F-4802-8CDE-CC7DD6235D45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -535,6 +537,14 @@ Global
 		{954D26B8-033E-4653-889B-DDFF58F9B1EF}.Release|x64.Build.0 = Release|x64
 		{954D26B8-033E-4653-889B-DDFF58F9B1EF}.Release|x86.ActiveCfg = Release|Win32
 		{954D26B8-033E-4653-889B-DDFF58F9B1EF}.Release|x86.Build.0 = Release|Win32
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Debug|x64.ActiveCfg = Debug|x64
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Debug|x64.Build.0 = Debug|x64
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Debug|x86.ActiveCfg = Debug|Win32
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Debug|x86.Build.0 = Debug|Win32
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Release|x64.ActiveCfg = Release|x64
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Release|x64.Build.0 = Release|x64
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Release|x86.ActiveCfg = Release|Win32
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -591,6 +601,7 @@ Global
 		{D07D1821-7930-4131-BBBA-E79A5267C054} = {A20B8664-F2CE-4E92-81B1-7BE4063AF2F5}
 		{3AE4F7BB-6969-4410-9988-4A3F5C697501} = {A20B8664-F2CE-4E92-81B1-7BE4063AF2F5}
 		{954D26B8-033E-4653-889B-DDFF58F9B1EF} = {A20B8664-F2CE-4E92-81B1-7BE4063AF2F5}
+		{0106D24F-D03F-4802-8CDE-CC7DD6235D45} = {A20B8664-F2CE-4E92-81B1-7BE4063AF2F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6B1F7C7-DE8D-4505-B1AE-12F93707DF34}
